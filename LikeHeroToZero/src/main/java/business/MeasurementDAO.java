@@ -11,7 +11,7 @@ import java.util.List;
 
 @RequestScoped
 @Named("messorganizer")
-public class MeasurementDAO extends Measurement {
+public class MeasurementDAO{
 
     private EntityManagerFactory emf = Persistence.createEntityManagerFactory("likeHeroToZero");
 

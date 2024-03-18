@@ -10,7 +10,7 @@ import java.util.List;
 
 @RequestScoped
 @Named("publisherorganizer")
-public class PublisherDAO extends Publisher {
+public class PublisherDAO{
 
     private EntityManagerFactory emf = Persistence.createEntityManagerFactory("likeHeroToZero");
 

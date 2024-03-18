@@ -2,8 +2,10 @@ package business;
 
 import jakarta.persistence.*;
 
+import java.io.Serializable;
+
 @Entity
-public class Publisher {
+public class Publisher implements Serializable {
 
     @Id
     private String name;

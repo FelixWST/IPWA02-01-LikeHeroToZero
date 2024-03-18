@@ -12,7 +12,7 @@ import java.util.List;
 
 @RequestScoped
 @Named("countryorganizer")
-public class CountryDAO extends Country {
+public class CountryDAO{
 
     private EntityManagerFactory emf = Persistence.createEntityManagerFactory("likeHeroToZero");
 
@@ -27,7 +27,7 @@ public class CountryDAO extends Country {
     public boolean isCountryAlreadyExisting(String country) {
         List<Country> countriesFound = new ArrayList<>();
         for (Country c : findAll()) {
-            if (c.getName().equals(new Country(country))) {
+            if (c.getName().equals(new Country(country).getName())) {
                 return true;
             }
         }
