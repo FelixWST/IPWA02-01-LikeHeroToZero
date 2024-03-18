@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataSource name="TestDB@localhost">
+<dataSource name="LikeHeroToZero@localhost">
   <database-model serializer="dbm" dbms="MARIADB" family-id="MARIADB" format-version="4.43">
     <root id="1">
       <DefaultCasing>mixed/mixed</DefaultCasing>
@@ -1168,7 +1168,7 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
     <collation id="323" parent="1" name="utf8mb4_vietnamese_ci">
       <Charset>utf8mb4</Charset>
     </collation>
-    <schema id="324" parent="1" name="TestDB">
+    <schema id="324" parent="1" name="LikeHeroToZero">
       <Current>1</Current>
       <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
@@ -1233,7 +1233,7 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="342" parent="337" name="id">
-      <AutoIncrement>1</AutoIncrement>
+      <AutoIncrement>6048</AutoIncrement>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1262,12 +1262,12 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
     <foreign-key id="348" parent="337" name="FKqhe247n8je852jpq1fb377m5o">
       <ColNames>country_name</ColNames>
       <RefColNames>name</RefColNames>
-      <RefTableName>Country</RefTableName>
+      <RefTableName>country</RefTableName>
     </foreign-key>
     <foreign-key id="349" parent="337" name="FKr56rgt2x4nspwp4x3yrvb6a7y">
       <ColNames>publisher_name</ColNames>
       <RefColNames>name</RefColNames>
-      <RefTableName>Publisher</RefTableName>
+      <RefTableName>publisher</RefTableName>
     </foreign-key>
     <index id="350" parent="337" name="PRIMARY">
       <ColNames>id</ColNames>
