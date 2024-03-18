@@ -12,7 +12,7 @@ import java.util.List;
 
 @RequestScoped
 @Named("countryorganizer")
-public class CountryDAO {
+public class CountryDAO extends Country {
 
     private EntityManagerFactory emf = Persistence.createEntityManagerFactory("likeHeroToZero");
 

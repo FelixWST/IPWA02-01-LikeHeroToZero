@@ -40,7 +40,7 @@ public class RegisterController implements Serializable {
             for (Publisher p : userList) {
                 Publisher tmp = new Publisher(this.name, (String) value);
                 if (p.equalsUsername(tmp.getName())) {
-                    throw new ValidatorException(new FacesMessage(FacesMessage.SEVERITY_ERROR, "Der Benutzername " + this.name + " ist bereits vergeben!", ""));
+                    addMessage(FacesMessage.SEVERITY_WARN, "Der Benutzername " + this.name + " ist bereits vergeben!","");
                 }
             }
             this.passcode = (String) value;

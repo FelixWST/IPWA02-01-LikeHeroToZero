@@ -9,13 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe779238-efff-43ca-abcb-e5e9182cb66c" name="Changes" comment="Initial Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="fe779238-efff-43ca-abcb-e5e9182cb66c" name="Changes" comment="added SQL dump">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/6f4c0e90-f17c-4a16-a460-e25ac3b0d8e6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6f4c0e90-f17c-4a16-a460-e25ac3b0d8e6.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LikeHeroToZero/LikeHeroToZero.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LikeHeroToZero/LikeHeroToZero.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LikeHeroToZero/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LikeHeroToZero/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LikeHeroToZero/src/main/java/business/CountryDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/LikeHeroToZero/src/main/java/business/CountryDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LikeHeroToZero/src/main/java/business/PublisherDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/LikeHeroToZero/src/main/java/business/PublisherDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LikeHeroToZero/src/main/java/view/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/LikeHeroToZero/src/main/java/view/RegisterController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,29 +62,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Global Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.4597701",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.4597701&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="business" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/LikeHeroToZero/src/main/resources/data" />
       <recent name="$PROJECT_DIR$/Artikelverwaltung/src/main/resources/data" />
       <recent name="$PROJECT_DIR$/Artikelverwaltung/src/main/java/business" />
       <recent name="$PROJECT_DIR$/Artikelverwaltung/src/main/webapp" />
       <recent name="$PROJECT_DIR$/Artikelverwaltung/src/main/resources/css" />
-      <recent name="$PROJECT_DIR$/Artikelverwaltung/src/main/resources" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.19">
@@ -253,7 +252,10 @@
       <workItem from="1710753664878" duration="17922000" />
       <workItem from="1710778347559" duration="203000" />
       <workItem from="1710778618043" duration="171000" />
-      <workItem from="1710778795984" duration="1524000" />
+      <workItem from="1710778795984" duration="1608000" />
+      <workItem from="1710780818076" duration="556000" />
+      <workItem from="1710781665742" duration="2387000" />
+      <workItem from="1710796139337" duration="382000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1710779047589</created>
@@ -262,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710779047589</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added SQL dump">
+      <created>1710780360050</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710780360050</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +290,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="added SQL dump" />
+    <option name="LAST_COMMIT_MESSAGE" value="added SQL dump" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
