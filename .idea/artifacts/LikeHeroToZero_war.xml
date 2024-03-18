@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="LikeHeroToZero:war">
+    <output-path>$PROJECT_DIR$/LikeHeroToZero/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>LikeHeroToZero</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="LikeHeroToZero-0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="LikeHeroToZero:war exploded" />
+    </root>
+  </artifact>
+</component>
